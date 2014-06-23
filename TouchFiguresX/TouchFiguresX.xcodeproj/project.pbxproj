@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AB0A506193D0BA000E9D609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0A505193D0BA000E9D609 /* Foundation.framework */; };
+		2AB0A508193D0BA000E9D609 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0A507193D0BA000E9D609 /* CoreGraphics.framework */; };
+		2AB0A50A193D0BA000E9D609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0A509193D0BA000E9D609 /* UIKit.framework */; };
+		2AB0A510193D0BA000E9D609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0A50E193D0BA000E9D609 /* InfoPlist.strings */; };
+		2AB0A512193D0BA000E9D609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0A511193D0BA000E9D609 /* main.m */; };
+		2AB0A516193D0BA000E9D609 /* TFXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0A515193D0BA000E9D609 /* TFXAppDelegate.m */; };
+		2AB0A519193D0BA000E9D609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0A517193D0BA000E9D609 /* Main.storyboard */; };
+		2AB0A51C193D0BA000E9D609 /* TFXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0A51B193D0BA000E9D609 /* TFXViewController.m */; };
+		2AB0A51E193D0BA000E9D609 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0A51D193D0BA000E9D609 /* Images.xcassets */; };
+		2AB0A525193D0BA000E9D609 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0A524193D0BA000E9D609 /* XCTest.framework */; };
+		2AB0A526193D0BA000E9D609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0A505193D0BA000E9D609 /* Foundation.framework */; };
+		2AB0A527193D0BA000E9D609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB0A509193D0BA000E9D609 /* UIKit.framework */; };
+		2AB0A52F193D0BA000E9D609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AB0A52D193D0BA000E9D609 /* InfoPlist.strings */; };
+		2AB0A531193D0BA000E9D609 /* TouchFiguresXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB0A530193D0BA000E9D609 /* TouchFiguresXTests.m */; };
+		2ABE79A419560B4F00DCA885 /* TFXBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABE79A319560B4F00DCA885 /* TFXBoxView.m */; };
+		2ABE79A71956887F00DCA885 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ABE79A51956887F00DCA885 /* Icon.png */; };
+		2ABE79A81956887F00DCA885 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ABE79A61956887F00DCA885 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AB0A528193D0BA000E9D609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB0A4FA193D0BA000E9D609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB0A501193D0BA000E9D609;
+			remoteInfo = TouchFiguresX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AB0A502193D0BA000E9D609 /* TouchFiguresX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchFiguresX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB0A505193D0BA000E9D609 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AB0A507193D0BA000E9D609 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AB0A509193D0BA000E9D609 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AB0A50D193D0BA000E9D609 /* TouchFiguresX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchFiguresX-Info.plist"; sourceTree = "<group>"; };
+		2AB0A50F193D0BA000E9D609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AB0A511193D0BA000E9D609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AB0A513193D0BA000E9D609 /* TouchFiguresX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchFiguresX-Prefix.pch"; sourceTree = "<group>"; };
+		2AB0A514193D0BA000E9D609 /* TFXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFXAppDelegate.h; sourceTree = "<group>"; };
+		2AB0A515193D0BA000E9D609 /* TFXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFXAppDelegate.m; sourceTree = "<group>"; };
+		2AB0A518193D0BA000E9D609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AB0A51A193D0BA000E9D609 /* TFXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFXViewController.h; sourceTree = "<group>"; };
+		2AB0A51B193D0BA000E9D609 /* TFXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFXViewController.m; sourceTree = "<group>"; };
+		2AB0A51D193D0BA000E9D609 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AB0A523193D0BA000E9D609 /* TouchFiguresXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchFiguresXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB0A524193D0BA000E9D609 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2AB0A52C193D0BA000E9D609 /* TouchFiguresXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchFiguresXTests-Info.plist"; sourceTree = "<group>"; };
+		2AB0A52E193D0BA000E9D609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AB0A530193D0BA000E9D609 /* TouchFiguresXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchFiguresXTests.m; sourceTree = "<group>"; };
+		2ABE79A219560B4F00DCA885 /* TFXBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFXBoxView.h; sourceTree = "<group>"; };
+		2ABE79A319560B4F00DCA885 /* TFXBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFXBoxView.m; sourceTree = "<group>"; };
+		2ABE79A51956887F00DCA885 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2ABE79A61956887F00DCA885 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB0A4FF193D0BA000E9D609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0A508193D0BA000E9D609 /* CoreGraphics.framework in Frameworks */,
+				2AB0A50A193D0BA000E9D609 /* UIKit.framework in Frameworks */,
+				2AB0A506193D0BA000E9D609 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0A520193D0BA000E9D609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0A525193D0BA000E9D609 /* XCTest.framework in Frameworks */,
+				2AB0A527193D0BA000E9D609 /* UIKit.framework in Frameworks */,
+				2AB0A526193D0BA000E9D609 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB0A4F9193D0BA000E9D609 = {
+			isa = PBXGroup;
+			children = (
+				2AB0A50B193D0BA000E9D609 /* TouchFiguresX */,
+				2AB0A52A193D0BA000E9D609 /* TouchFiguresXTests */,
+				2AB0A504193D0BA000E9D609 /* Frameworks */,
+				2AB0A503193D0BA000E9D609 /* Products */,
+				2ABE79A51956887F00DCA885 /* Icon.png */,
+				2ABE79A61956887F00DCA885 /* Icon@2x.png */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB0A503193D0BA000E9D609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0A502193D0BA000E9D609 /* TouchFiguresX.app */,
+				2AB0A523193D0BA000E9D609 /* TouchFiguresXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB0A504193D0BA000E9D609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0A505193D0BA000E9D609 /* Foundation.framework */,
+				2AB0A507193D0BA000E9D609 /* CoreGraphics.framework */,
+				2AB0A509193D0BA000E9D609 /* UIKit.framework */,
+				2AB0A524193D0BA000E9D609 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AB0A50B193D0BA000E9D609 /* TouchFiguresX */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0A514193D0BA000E9D609 /* TFXAppDelegate.h */,
+				2AB0A515193D0BA000E9D609 /* TFXAppDelegate.m */,
+				2AB0A517193D0BA000E9D609 /* Main.storyboard */,
+				2AB0A51A193D0BA000E9D609 /* TFXViewController.h */,
+				2AB0A51B193D0BA000E9D609 /* TFXViewController.m */,
+				2ABE79A219560B4F00DCA885 /* TFXBoxView.h */,
+				2ABE79A319560B4F00DCA885 /* TFXBoxView.m */,
+				2AB0A51D193D0BA000E9D609 /* Images.xcassets */,
+				2AB0A50C193D0BA000E9D609 /* Supporting Files */,
+			);
+			path = TouchFiguresX;
+			sourceTree = "<group>";
+		};
+		2AB0A50C193D0BA000E9D609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0A50D193D0BA000E9D609 /* TouchFiguresX-Info.plist */,
+				2AB0A50E193D0BA000E9D609 /* InfoPlist.strings */,
+				2AB0A511193D0BA000E9D609 /* main.m */,
+				2AB0A513193D0BA000E9D609 /* TouchFiguresX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AB0A52A193D0BA000E9D609 /* TouchFiguresXTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0A530193D0BA000E9D609 /* TouchFiguresXTests.m */,
+				2AB0A52B193D0BA000E9D609 /* Supporting Files */,
+			);
+			path = TouchFiguresXTests;
+			sourceTree = "<group>";
+		};
+		2AB0A52B193D0BA000E9D609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB0A52C193D0BA000E9D609 /* TouchFiguresXTests-Info.plist */,
+				2AB0A52D193D0BA000E9D609 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB0A501193D0BA000E9D609 /* TouchFiguresX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB0A534193D0BA000E9D609 /* Build configuration list for PBXNativeTarget "TouchFiguresX" */;
+			buildPhases = (
+				2AB0A4FE193D0BA000E9D609 /* Sources */,
+				2AB0A4FF193D0BA000E9D609 /* Frameworks */,
+				2AB0A500193D0BA000E9D609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchFiguresX;
+			productName = TouchFiguresX;
+			productReference = 2AB0A502193D0BA000E9D609 /* TouchFiguresX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AB0A522193D0BA000E9D609 /* TouchFiguresXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB0A537193D0BA000E9D609 /* Build configuration list for PBXNativeTarget "TouchFiguresXTests" */;
+			buildPhases = (
+				2AB0A51F193D0BA000E9D609 /* Sources */,
+				2AB0A520193D0BA000E9D609 /* Frameworks */,
+				2AB0A521193D0BA000E9D609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB0A529193D0BA000E9D609 /* PBXTargetDependency */,
+			);
+			name = TouchFiguresXTests;
+			productName = TouchFiguresXTests;
+			productReference = 2AB0A523193D0BA000E9D609 /* TouchFiguresXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB0A4FA193D0BA000E9D609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TFX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kai Leistner";
+				TargetAttributes = {
+					2AB0A501193D0BA000E9D609 = {
+						DevelopmentTeam = Y9YQHS229S;
+					};
+					2AB0A522193D0BA000E9D609 = {
+						TestTargetID = 2AB0A501193D0BA000E9D609;
+					};
+				};
+			};
+			buildConfigurationList = 2AB0A4FD193D0BA000E9D609 /* Build configuration list for PBXProject "TouchFiguresX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB0A4F9193D0BA000E9D609;
+			productRefGroup = 2AB0A503193D0BA000E9D609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB0A501193D0BA000E9D609 /* TouchFiguresX */,
+				2AB0A522193D0BA000E9D609 /* TouchFiguresXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB0A500193D0BA000E9D609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABE79A71956887F00DCA885 /* Icon.png in Resources */,
+				2AB0A51E193D0BA000E9D609 /* Images.xcassets in Resources */,
+				2AB0A510193D0BA000E9D609 /* InfoPlist.strings in Resources */,
+				2AB0A519193D0BA000E9D609 /* Main.storyboard in Resources */,
+				2ABE79A81956887F00DCA885 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0A521193D0BA000E9D609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0A52F193D0BA000E9D609 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB0A4FE193D0BA000E9D609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0A512193D0BA000E9D609 /* main.m in Sources */,
+				2ABE79A419560B4F00DCA885 /* TFXBoxView.m in Sources */,
+				2AB0A51C193D0BA000E9D609 /* TFXViewController.m in Sources */,
+				2AB0A516193D0BA000E9D609 /* TFXAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB0A51F193D0BA000E9D609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0A531193D0BA000E9D609 /* TouchFiguresXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AB0A529193D0BA000E9D609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB0A501193D0BA000E9D609 /* TouchFiguresX */;
+			targetProxy = 2AB0A528193D0BA000E9D609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AB0A50E193D0BA000E9D609 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB0A50F193D0BA000E9D609 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AB0A517193D0BA000E9D609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB0A518193D0BA000E9D609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AB0A52D193D0BA000E9D609 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB0A52E193D0BA000E9D609 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AB0A532193D0BA000E9D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kai Leistner (GGHW3WU3LY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kai Leistner (GGHW3WU3LY)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AB0A533193D0BA000E9D609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kai Leistner (GGHW3WU3LY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kai Leistner (GGHW3WU3LY)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB0A535193D0BA000E9D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchFiguresX/TouchFiguresX-Prefix.pch";
+				INFOPLIST_FILE = "TouchFiguresX/TouchFiguresX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AB0A536193D0BA000E9D609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchFiguresX/TouchFiguresX-Prefix.pch";
+				INFOPLIST_FILE = "TouchFiguresX/TouchFiguresX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2AB0A538193D0BA000E9D609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchFiguresX.app/TouchFiguresX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchFiguresX/TouchFiguresX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TouchFiguresXTests/TouchFiguresXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2AB0A539193D0BA000E9D609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchFiguresX.app/TouchFiguresX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchFiguresX/TouchFiguresX-Prefix.pch";
+				INFOPLIST_FILE = "TouchFiguresXTests/TouchFiguresXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB0A4FD193D0BA000E9D609 /* Build configuration list for PBXProject "TouchFiguresX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB0A532193D0BA000E9D609 /* Debug */,
+				2AB0A533193D0BA000E9D609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB0A534193D0BA000E9D609 /* Build configuration list for PBXNativeTarget "TouchFiguresX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB0A535193D0BA000E9D609 /* Debug */,
+				2AB0A536193D0BA000E9D609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB0A537193D0BA000E9D609 /* Build configuration list for PBXNativeTarget "TouchFiguresXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB0A538193D0BA000E9D609 /* Debug */,
+				2AB0A539193D0BA000E9D609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB0A4FA193D0BA000E9D609 /* Project object */;
+}
